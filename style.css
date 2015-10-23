@@ -1,0 +1,133 @@
+body{
+	  background:black ;
+	  color:#fff;
+	font-family: 'Cutive Mono';
+}
+
+::selection {
+  background: rgb(0,192,255); /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: rgb(0,192,255); /* Gecko Browsers */
+}
+
+.logo{
+	position:absolute;
+	display:block;
+	background: url(images/dh.png) no-repeat;
+     top:15px;
+	left:15px;
+	width:75px;
+	height:100px;
+    background-size:cover;
+	
+}
+
+.logo:hover{
+	  background-position: 0 -98px;
+}
+
+header{
+padding-top:50px;
+}
+
+h1{
+font-family: 'Josefin Sans';
+	color:#fff;
+	font-size:4em;	
+	font-weight:bold;
+	text-transform:uppercase;
+}
+
+.mainSection{
+margin-top:20px;
+background: #000;
+
+		
+	 
+}
+
+.page-text{
+	font-size:1.6em;
+}
+
+
+.calculator-container{
+width:250px;
+margin: 0 auto;
+border-radius:30px;
+	border: #fff solid 4px;
+	padding: 40px 30px 35px 30px;
+	
+	
+}
+
+.calculator-display{
+	width:175px;
+	margin-left:20px;	
+	margin-bottom:10px;
+	height:40px;
+	background:white;
+	color:#000;
+	border-radius:15px;
+	padding-left:10px;
+	padding-top:7px;
+	font-size:1.4em;
+	overflow:hidden;
+
+
+
+}
+
+
+.clear-buttons{
+	
+margin-left:40px;
+}
+
+.btn{
+	margin: 5px 0 5px 0;
+	border-radius:20px;
+}
+
+.btn:hover{
+	
+	background:rgb(0,192,255) !important;
+
+}
+
+.btn:focus,.btn:active:focus,.btn.active:focus,
+.btn.focus,.btn:active.focus,.btn.active.focus {
+    outline: none;
+}
+
+
+@media only screen and (max-width : 480px){
+	h1{
+	font-size:2.7em !important;	
+}
+
+.logo{
+	 -ms-transform: scale(0.5,0.5); /* IE 9 */
+    -webkit-transform: scale(0.5,0.5); /* Safari */
+    transform: scale(0.5,0.5);
+}
+
+.hvr-grow:active,.hvr-grow:focus,.hvr-grow:hover{
+ 		-webkit-transform:scale(0.6);
+ 		transform:scale(0.6)
+ 		}
+
+
+ 
+	}
+
+
+
+
+
+
+ 	
+ 	
+
+
